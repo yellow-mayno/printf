@@ -99,11 +99,12 @@ char *insert(char *dest, char *to_insert, int n)
 	temp_string = _strcpy(temp_string, dest);
 	for (i = 0; i < _strlen(to_insert); i++)
 		temp_string[i + n] = to_insert[i];
-	while (dest[n + 2 + j] != '\0')
+	do
 	{
 		temp_string[i + n + j] = dest[n + 2 + j];
 		j++;
 	}
+	while (dest[n + 2 + j] != '\0');
 	return (temp_string);
 }
 /**
