@@ -45,6 +45,10 @@ int _printf(const char *format, ...)
 	va_end(args);
 	len = _strlen(to_print);
 	write(1, to_print, len);
+/*
+*	free(to_print);
+*	free(argu);
+*/
 	return (len);
 }
 /**
@@ -99,12 +103,10 @@ char *insert(char *dest, char *to_insert, int n)
 	temp_string = _strcpy(temp_string, dest);
 	for (i = 0; i < _strlen(to_insert); i++)
 		temp_string[i + n] = to_insert[i];
-	do
-	{
+	do {
 		temp_string[i + n + j] = dest[n + 2 + j];
 		j++;
-	}
-	while (dest[n + 2 + j] != '\0');
+	} while (dest[n + 2 + j] != '\0');
 	return (temp_string);
 }
 /**
