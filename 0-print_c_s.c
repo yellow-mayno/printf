@@ -66,3 +66,14 @@ int print_string(const char *s)
 	}
 	return (i);
 }
+/**
+* print_number - print an int
+* @option: d or i
+* @num: the actual number
+* Return: number of printed chars
+
+int print_number(char option, int num)
+{
+	if (option == 'd')
+	{
+*/
