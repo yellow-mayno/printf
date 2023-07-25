@@ -7,7 +7,6 @@
 */
 int print_number(int num)
 {
-	int power(int, int);
 	int i = 0, cnt = 0;
 	int n = num;
 	char c;
@@ -25,9 +24,9 @@ int print_number(int num)
 	for (; i >= 0; i--)
 	{
 		if (n < 0)
-			c = n / power(10, i) * (-1) + 48;
+			c = n / (int) power(10, i) * (-1) + 48;
 		else
-			c = n / power(10, i) + 48;
+			c = n / (int) power(10, i) + 48;
 		n = n % power(10, i);
 		cnt += write(1, &c, 1);
 	}
@@ -39,10 +38,10 @@ int print_number(int num)
 * @pow: prisoner of war
 * Return: n
 */
-int power(int num, int pow)
+unsigned int power(unsigned int num, int pow)
 {
 	int i = 0;
-	int cml = 1;
+	unsigned int cml = 1;
 
 	for (; i < pow; i++)
 		cml = cml * num;
@@ -53,18 +52,12 @@ int power(int num, int pow)
 * @num: number to convert
 * Return: string
 */
-int print_number_binary(int num)
+unsigned int print_number_binary(unsigned int num)
 {
-	int power(int, int);
-	int i = 0;
-	int n = num;
+	unsigned int i = 0;
+	unsigned int n = num;
 	char c;
 
-	if (n < 0)
-	{
-		c = '-';
-		write(1, &c, 1);
-	}
 	while (num / 2)
 	{
 		i++;
