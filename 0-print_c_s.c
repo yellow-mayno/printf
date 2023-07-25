@@ -67,7 +67,7 @@ int print_string(const char *s)
 /**
 * print_ascii - print only ascii
 * @s: the string
-* Return number of elements
+* Return: number of elements
 */
 int print_ascii(const char *s)
 {
