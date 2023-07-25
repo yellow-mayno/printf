@@ -21,22 +21,18 @@ int _printf(const char *format, ...)
 		if (format[i] == '%')
 		{
 			if (format[i + 1] == 's')
-			{
 				cnt += print_string(va_arg(args, char *));
-			}
 			else if (format[i + 1] == 'c')
 			{
 				c = va_arg(args, int);
 				cnt += write(1, &c, 1);
 			}
 			else if (format[i + 1] == '%')
-			{
 				cnt += write(1, &format[i + 1], 1);
-			}
 			else if (format[i + 1] == 'd' || format[i + 1] == 'i')
-			{
 				cnt += print_number(va_arg(args, int));
-			}
+			else if (format[i + 1] == 'b')
+				cnt += print_number_binary(va_arg(args, unsigned int));
 			else
 				cnt += write(1, &format[i], 1), i--;
 			i++;
