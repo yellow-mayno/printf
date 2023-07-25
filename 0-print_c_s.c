@@ -33,6 +33,8 @@ int _printf(const char *format, ...)
 				cnt += print_number(va_arg(args, int));
 			else if (format[i + 1] == 'b')
 				cnt += print_number_binary(va_arg(args, unsigned int));
+			else if (format[i + 1] == 'S')
+				cnt += print_ascii(va_arg(args, char *));
 			else
 				cnt += write(1, &format[i], 1), i--;
 			i++;
