@@ -64,3 +64,24 @@ int print_string(const char *s)
 	}
 	return (i);
 }
+/**
+* print_ascii - print only ascii
+* @s: the string
+* Return number of elements
+*/
+int print_ascii(const char *s)
+{
+	int i = 0, cnt = 0;
+
+	if (s == NULL)
+		return (0);
+	while (s[i] != '\0')
+	{
+		if (s[i] > 31 && s[i] < 127)
+			cnt += print_string("\\x");
+		else
+			cnt += write(1, s[i], 1);
+		i++;
+	}
+	return (cnt);
+}
