@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include "main.h"
+#include <limits.h>
+
+int main(void)
+{
+	_printf("%d\n", INT_MIN);
+	_printf("%d\n", 10);
+	return (0);
+}
