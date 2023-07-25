@@ -1,10 +1,36 @@
 #include <stdio.h>
 #include "main.h"
 #include <limits.h>
+#include <stdlib.h>
 
 int main(void)
 {
-	_printf("%d\n", INT_MIN);
-	_printf("%d\n", 10);
+	/* initialize big str */
+	char *str = malloc(10000 * sizeof(char));
+	int i;
+	for (i = 0; i < 10000; i++)
+		str[i] = 't';
+
+	_printf("sentence");
+	_printf("%c", '\n');
+	_printf("char inside %c hehe.\n", '!');
+	_printf("char with number  0 == %c ok ? \n", 48);
+	_printf("%s", "sentece casted\n");
+	_printf("Complete the sentence : it's %s over\n", "not");
+	/* 2nd pic */
+	_printf("%c%cth %s%s a%cg%s: Y%sou %s no%ching%s Snow.%c", 'W', 'i', "some ", "more", 'r', "s", "", "know", 't', ", Jon", '\n');
+	_printf("%%");
+	_printf("one love, one %%\n");
+	_printf("%s%c%c%c%s%%%s%c", "Loading", '.','.','.', "99", "PLEASE WAIT", '\n');
+	_printf("css%ccs%scscscs", 'T', "Test");
+	/* 3rd pic */
+	_printf(str);
+	_printf("man fct : \n%si\n", str);
+	_printf(NULL);
+	_printf("%c", '\0');
+	_printf("null");
+	_printf("%K\n");
+	_printf("%");
+	_printf("%!\n");
 	return (0);
 }

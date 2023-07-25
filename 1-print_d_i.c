@@ -52,9 +52,9 @@ unsigned int power(unsigned int num, int pow)
 * @num: number to convert
 * Return: string
 */
-unsigned int print_number_binary(unsigned int num)
+int print_number_binary(unsigned int num)
 {
-	unsigned int i = 0;
+	int i = 0, cnt = 0;
 	unsigned int n = num;
 	char c;
 
@@ -66,12 +66,9 @@ unsigned int print_number_binary(unsigned int num)
 	num = i;
 	for (; i >= 0; i--)
 	{
-		if (n < 0)
-			c = n / power(2, i) * (-1) + 48;
-		else
-			c = n / power(2, i) + 48;
+		c = n / power(2, i) + 48;
 		n = n % power(2, i);
-		write(1, &c, 1);
+		cnt += write(1, &c, 1);
 	}
 	return (num + 1);
 }
