@@ -80,7 +80,7 @@ int print_ascii(const char *s)
 		if (s[i] > 31 && s[i] < 127)
 			cnt += print_string("\\x");
 		else
-			cnt += write(1, s[i], 1);
+			cnt += write(1, &s[i], 1);
 		i++;
 	}
 	return (cnt);
