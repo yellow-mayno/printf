@@ -27,7 +27,7 @@ int print_number(int num)
 			c = n / (int) power(10, i) * (-1) + 48;
 		else
 			c = n / (int) power(10, i) + 48;
-		n = n % power(10, i);
+		n = n % (int) power(10, i);
 		cnt += write(1, &c, 1);
 	}
 	return (cnt);

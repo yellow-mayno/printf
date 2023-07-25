@@ -1,0 +1,104 @@
+[33mcommit 621594e1adf341200a47ad2c891cdcb05536329d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Wed Jul 26 00:36:49 2023 +0200
+
+    auto commit
+
+[33mcommit 2e93e32e986fd7f50de100bbd1916addcf57995a[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Wed Jul 26 00:26:40 2023 +0200
+
+    auto push
+
+[33mcommit fa6988489cd7cf6f96877d6ed3676e824b952d68[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Tue Jul 25 23:40:34 2023 +0200
+
+    auto push
+
+[33mcommit d7eded5ea126c22026e9cbd2ebac414af762d56c[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Tue Jul 25 18:10:07 2023 +0200
+
+    print s c d i
+
+[33mcommit c5e1a7b247fea1dc8938ee4bc4154c1f60e89852[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Tue Jul 25 13:40:19 2023 +0200
+
+    auto commit
+
+[33mcommit e277799fe87927613d4495d90bb023487bf95718[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Mon Jul 24 21:35:02 2023 +0200
+
+    auto commit
+
+[33mcommit 998b356e373f8efa38e9f1c8ab3e82df4817a2f8[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Mon Jul 24 21:31:31 2023 +0200
+
+    auto commit
+
+[33mcommit 57872d3e962d4f23f6c76cda9ba6d5e94fb62a70[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Mon Jul 24 21:26:58 2023 +0200
+
+    auto commit
+
+[33mcommit 9f9259b40bfd124a85e5f5796059f027ceda5b3e[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Mon Jul 24 21:26:17 2023 +0200
+
+    auto commit
+
+[33mcommit 5dd4ff1fcb932b738b63c0cad5e9ee6b567bc52a[m
+Merge: 92f467e 4a65e51
+Author: lowtierbot <scrublord@kek.com>
+Date:   Mon Jul 24 20:48:51 2023 +0200
+
+    Merge branch 'main' of https://github.com/zzzzzzzzzzzzeeeeeeeeeeeeeeeee/printf into main
+
+[33mcommit 92f467e14d242953699e85a131bb428dc8de3de7[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Mon Jul 24 20:46:54 2023 +0200
+
+    print string char
+
+[33mcommit 4a65e51bf2eec6c941b653c1ad77780c5b0d1d6d[m
+Author: zzzzzzzzzzzzeeeeeeeeeeeeeeeee <133358418+zzzzzzzzzzzzeeeeeeeeeeeeeeeee@users.noreply.github.com>
+Date:   Mon Jul 24 20:33:52 2023 +0200
+
+    Delete test.c
+    
+    no main allowed in this repo
+
+[33mcommit af358d7c5fff4e440714689256f17cb81e7892ee[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Mon Jul 24 20:31:14 2023 +0200
+
+    print string and char
+
+[33mcommit 54c55f9c51b1f81edf4ebfde3a9389b0cd0c9463[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Mon Jul 24 16:48:39 2023 +0200
+
+    print strings and chars
+
+[33mcommit 1f87fb386985eded45e5a0e6524b0b390befd48d[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Mon Jul 24 16:33:11 2023 +0200
+
+    print strings and chars
+
+[33mcommit 053caba68a00efc8483a431bca7ae7e5e7f35dae[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Mon Jul 24 16:09:46 2023 +0200
+
+    auto commit
+
+[33mcommit 06b26e1d5e4204bb9a94fc4b9b9d32fbe998ca61[m
+Author: lowtierbot <scrublord@kek.com>
+Date:   Sun Jul 23 20:40:22 2023 +0200
+
+    initializing repo
