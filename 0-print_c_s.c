@@ -37,6 +37,8 @@ int _printf(const char *format, ...)
 			{
 				cnt += print_number(va_arg(args, int));
 			}
+			else
+				cnt += write(1, &format[i], 1), i--;
 			i++;
 		}
 		else
